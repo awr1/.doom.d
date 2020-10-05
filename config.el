@@ -22,7 +22,8 @@
 ;; Appearance and Theming
 (setq
  doom-font                 (font-spec :family "Iosevka Curly Slab" :size 16)
- doom-theme                'doom-old-hope
+ doom-serif-font           (font-spec :family "Iosevka"            :size 16)
+ doom-theme                'doom-manegarm
  display-line-numbers-type nil)
 
 ;; Prefer UTF-8, avoid Windows CRLF wherever
