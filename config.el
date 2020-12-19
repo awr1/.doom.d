@@ -2,7 +2,9 @@
 
 ;; Keybindings
 (general-evil-setup t)
-(map! :leader "SPC" 'execute-extended-command)
+(map! :leader
+      "SPC" 'execute-extended-command
+      "r"   'counsel-yank-pop)
 (defmacro ijkl (command)
   `(,command
     ;; Use IJKL (inverse-T) for navigation in lieu of HJKL
