@@ -25,7 +25,10 @@
 (setq
  doom-font                 (font-spec :family "Iosevka Curly Slab" :size 16)
  doom-serif-font           (font-spec :family "Iosevka"            :size 16)
- doom-theme                'doom-manegarm
+ doom-theme                'doom-monokai-spectrum
+                           ; 'doom-challenger-deep
+                           ; 'doom-miramare
+                           ; 'doom-manegarm
  display-line-numbers-type nil)
 
 ;; Prefer UTF-8, avoid Windows CRLF wherever
